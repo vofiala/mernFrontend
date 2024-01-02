@@ -23,7 +23,7 @@ const CreateBooks = () => {
         };
         setLoading(true)
         axios
-        .post('https://stately-truffle-59bf0c.netlify.app//books', data)
+        .post('https://stately-truffle-59bf0c.netlify.app/books', data)
         .then(() => {
             setLoading(false);
             navigate('/');
