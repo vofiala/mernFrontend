@@ -1,8 +1,9 @@
-import React from "react";
+
 import {Link} from "react-router-dom";
 
 
-const BackButton = ({ destination = '/'}) => {
+const BackButton = () => {
+    const destination = '/';
     return(
         <div>
             <Link to={destination}>
