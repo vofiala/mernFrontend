@@ -18,7 +18,7 @@ const EditBooks = () => {
         };
         setLoading(true);
         axios
-        .put(`http://localhost:8000/books/${id}`, data)
+        .put(`https://mern-server2-oj5n.onrender.com/books/${id}`, data)
         .then((response) => {
                 setAuthor(response.data.author);
                 setTitle(response.data.title);
