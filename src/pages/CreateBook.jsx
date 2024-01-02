@@ -23,7 +23,7 @@ const CreateBooks = () => {
         };
         setLoading(true)
         axios
-        .post('https://stately-truffle-59bf0c.netlify.app/books', data)
+        .post('https://mern-server2-oj5n.onrender.com/books', data)
         .then(() => {
             setLoading(false);
             navigate('/');
