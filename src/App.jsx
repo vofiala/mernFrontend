@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home.jsx';
@@ -20,6 +20,6 @@ function App() {
       <Route path='books/delete/:id' element={<DeleteBooks/>} />
     </Routes>
   );
-}; 
+}
 
 export default App
